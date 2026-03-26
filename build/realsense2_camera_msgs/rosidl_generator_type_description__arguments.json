@@ -1,0 +1,18 @@
+{
+  "package_name": "realsense2_camera_msgs",
+  "output_dir": "/home/ymzz/YMbot_ROS2/build/realsense2_camera_msgs/rosidl_generator_type_description/realsense2_camera_msgs",
+  "idl_tuples": [
+    "/home/ymzz/YMbot_ROS2/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/IMUInfo.idl",
+    "/home/ymzz/YMbot_ROS2/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Extrinsics.idl",
+    "/home/ymzz/YMbot_ROS2/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Metadata.idl",
+    "/home/ymzz/YMbot_ROS2/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/RGBD.idl",
+    "/home/ymzz/YMbot_ROS2/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/DeviceInfo.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

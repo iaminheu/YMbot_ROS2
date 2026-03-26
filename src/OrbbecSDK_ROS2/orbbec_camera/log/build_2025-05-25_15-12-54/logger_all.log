@@ -1,0 +1,115 @@
+[0.096s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.096s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d6da0dddfd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d6da0dddac0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d6da0dddac0>>, mixin_verb=('build',))
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.131s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'orbbec_camera'
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.172s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /home/ymzz/ws_ros2/install
+[0.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 74 installed packages in /home/ymzz/ws_moveit/install
+[0.174s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/jazzy
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera', 'merge_install': False, 'path': '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera', 'symlink_install': False, 'test_result_base': None}
+[0.225s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.226s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera' with build type 'ament_cmake'
+[0.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera'
+[0.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera -DCMAKE_INSTALL_PREFIX=/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera
+[2.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera -DCMAKE_INSTALL_PREFIX=/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera
+[2.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera -- -j20 -l20
+[44.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera -- -j20 -l20
+[44.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera
+[44.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera)
+[44.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera
+[44.496s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera' for CMake module files
+[44.496s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera' for CMake config files
+[44.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'cmake_prefix_path')
+[44.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.ps1'
+[44.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.dsv'
+[44.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.sh'
+[44.498s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib'
+[44.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'ld_library_path_lib')
+[44.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.ps1'
+[44.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.dsv'
+[44.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.sh'
+[44.499s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/bin'
+[44.499s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/pkgconfig/orbbec_camera.pc'
+[44.499s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/python3.12/site-packages'
+[44.500s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/bin'
+[44.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.ps1'
+[44.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.dsv'
+[44.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.sh'
+[44.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.bash'
+[44.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.zsh'
+[44.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/colcon-core/packages/orbbec_camera)
+[44.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera)
+[44.502s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera' for CMake module files
+[44.503s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera' for CMake config files
+[44.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'cmake_prefix_path')
+[44.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.ps1'
+[44.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.dsv'
+[44.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.sh'
+[44.504s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib'
+[44.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'ld_library_path_lib')
+[44.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.ps1'
+[44.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.dsv'
+[44.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.sh'
+[44.504s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/bin'
+[44.504s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/pkgconfig/orbbec_camera.pc'
+[44.505s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/python3.12/site-packages'
+[44.505s] Level 1:colcon.colcon_core.environment:checking '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/bin'
+[44.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.ps1'
+[44.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.dsv'
+[44.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.sh'
+[44.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.bash'
+[44.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.zsh'
+[44.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/colcon-core/packages/orbbec_camera)
+[44.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[44.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[44.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[44.506s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[44.514s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[44.514s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[44.514s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[44.527s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[44.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/local_setup.ps1'
+[44.528s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/_local_setup_util_ps1.py'
+[44.529s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/setup.ps1'
+[44.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/local_setup.sh'
+[44.531s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/_local_setup_util_sh.py'
+[44.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/setup.sh'
+[44.533s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/local_setup.bash'
+[44.533s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/setup.bash'
+[44.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/local_setup.zsh'
+[44.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/setup.zsh'

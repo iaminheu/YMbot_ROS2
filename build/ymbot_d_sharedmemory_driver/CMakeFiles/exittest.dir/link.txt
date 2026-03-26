@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra CMakeFiles/exittest.dir/src/exittest.cpp.o -o exittest   -L/home/ymzz/YMbot_ROS2/utils/ymbot_d_sharedmemory_driver/lib 

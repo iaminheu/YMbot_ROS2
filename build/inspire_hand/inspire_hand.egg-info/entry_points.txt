@@ -1,0 +1,4 @@
+[console_scripts]
+hand_grasp_state_pub = inspire_hand.hand_grasp_state_pub:main
+inspire_hand_sub = inspire_hand.inspire_hand_sub:main
+single_hand_command = inspire_hand.single_hand_command:main

@@ -1,0 +1,4 @@
+source;share/ymbot_d_control/local_setup.bash
+source;share/ymbot_d_control/local_setup.dsv
+source;share/ymbot_d_control/local_setup.sh
+source;share/ymbot_d_control/local_setup.zsh

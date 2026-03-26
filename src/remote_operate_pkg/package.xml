@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>remote_operate_pkg</name>
+  <version>0.0.0</version>
+  <description>Integrated remote operation package</description>
+
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>inspire_hand</exec_depend>
+  <exec_depend>vr_receiver</exec_depend>
+  <exec_depend>ymbot_d_control</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

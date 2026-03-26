@@ -1,0 +1,23 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ymbot_d_description
+    relative_path: urdf/ymbot_d.urdf
+  srdf:
+    relative_path: config/ymbot_d.srdf
+  package_settings:
+    author_name: SunHao
+    author_email: sh.21@foxmail.com
+    generated_timestamp: 1732450925
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position

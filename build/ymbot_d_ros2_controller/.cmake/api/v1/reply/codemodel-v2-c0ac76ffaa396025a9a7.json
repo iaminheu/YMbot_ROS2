@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c3d9a4607e1541f85433.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ymbot_d_ros2_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dfedf41df48af24995a0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ymbot_d_ros2_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ymbot_d_ros2_controller-f27e3f7a247829f6a203.json",
+					"name" : "ymbot_d_ros2_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ymbot_d_ros2_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ymbot_d_ros2_controller_uninstall-b95ede1db9a91a33a6cc.json",
+					"name" : "ymbot_d_ros2_controller_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ymzz/YMbot_ROS2/build/ymbot_d_ros2_controller",
+		"source" : "/home/ymzz/YMbot_ROS2/src/control/ymbot_d_ros2_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

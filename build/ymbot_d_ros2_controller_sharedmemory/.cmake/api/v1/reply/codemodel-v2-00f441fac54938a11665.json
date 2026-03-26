@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3adeda03566883fbfdeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ymbot_d_ros2_controller_sharedmemory",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5603ba6a2d5f0292ef90.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ymbot_d_ros2_controller_sharedmemory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ymbot_d_ros2_controller_sharedmemory-1cd4ca98534492698b62.json",
+					"name" : "ymbot_d_ros2_controller_sharedmemory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ymbot_d_ros2_controller_sharedmemory_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ymbot_d_ros2_controller_sharedmemory_uninstall-0f7256358248d22f3685.json",
+					"name" : "ymbot_d_ros2_controller_sharedmemory_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ymzz/YMbot_ROS2/build/ymbot_d_ros2_controller_sharedmemory",
+		"source" : "/home/ymzz/YMbot_ROS2/src/control/ymbot_d_ros2_controller_sharedmemory"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

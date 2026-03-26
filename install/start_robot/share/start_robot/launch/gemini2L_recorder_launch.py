@@ -1,0 +1,1 @@
+/home/ymzz/YMbot_ROS2/build/start_robot/launch/gemini2L_recorder_launch.py

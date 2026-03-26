@@ -1,0 +1,5 @@
+[console_scripts]
+body_control = remote_operate_pkg.body_control:main
+hand_control = remote_operate_pkg.hand_control:main
+joint_control = remote_operate_pkg.joint_control:main
+neck_control = remote_operate_pkg.neck_control:main

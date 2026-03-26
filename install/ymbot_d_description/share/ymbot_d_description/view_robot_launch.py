@@ -1,0 +1,1 @@
+/home/ymzz/YMbot_ROS2/build/ymbot_d_description/launch/view_robot_launch.py

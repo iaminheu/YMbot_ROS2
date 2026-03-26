@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

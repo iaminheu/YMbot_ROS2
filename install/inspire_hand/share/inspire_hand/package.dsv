@@ -1,0 +1,9 @@
+source;share/inspire_hand/hook/pythonpath.ps1
+source;share/inspire_hand/hook/pythonpath.dsv
+source;share/inspire_hand/hook/pythonpath.sh
+source;share/inspire_hand/hook/ament_prefix_path.ps1
+source;share/inspire_hand/hook/ament_prefix_path.dsv
+source;share/inspire_hand/hook/ament_prefix_path.sh
+source;../../build/inspire_hand/share/inspire_hand/hook/pythonpath_develop.ps1
+source;../../build/inspire_hand/share/inspire_hand/hook/pythonpath_develop.dsv
+source;../../build/inspire_hand/share/inspire_hand/hook/pythonpath_develop.sh

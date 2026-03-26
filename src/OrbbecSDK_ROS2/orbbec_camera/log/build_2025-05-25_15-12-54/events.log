@@ -1,0 +1,675 @@
+[0.000000] (-) TimerEvent: {}
+[0.000624] (orbbec_camera) JobQueued: {'identifier': 'orbbec_camera', 'dependencies': OrderedDict()}
+[0.000677] (orbbec_camera) JobStarted: {'identifier': 'orbbec_camera'}
+[0.013108] (orbbec_camera) JobProgress: {'identifier': 'orbbec_camera', 'progress': 'cmake'}
+[0.014026] (orbbec_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera', '-DCMAKE_INSTALL_PREFIX=/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera'], 'cwd': '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ymzz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller_sharedmemory/lib:/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller/lib:/home/ymzz/ws_ros2/install/ymbot_hardware_driver/lib:/home/ymzz/ws_ros2/install/realsense2_camera/lib:/home/ymzz/ws_ros2/install/realsense2_camera_msgs/lib:/home/ymzz/ws_ros2/install/orbbec_camera/lib:/home/ymzz/ws_ros2/install/orbbec_camera_msgs/lib:/home/ymzz/ws_ros2/install/easy_handeye2_msgs/lib:/home/ymzz/ws_ros2/install/aruco_ros/lib:/home/ymzz/ws_ros2/install/aruco_msgs/lib:/home/ymzz/ws_ros2/install/aruco/lib:/home/ymzz/ws_moveit/install/trac_ik_kinematics/lib:/home/ymzz/ws_moveit/install/trac_ik_lib/lib:/home/ymzz/ws_moveit/install/robotiq_driver/lib:/home/ymzz/ws_moveit/install/serial/lib:/home/ymzz/ws_moveit/install/moveit_visual_tools/lib:/home/ymzz/ws_moveit/install/rviz_visual_tools/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_demo/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_core/lib:/home/ymzz/ws_moveit/install/rviz_marker_tools/lib:/home/ymzz/ws_moveit/install/robotiq_controllers/lib:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/ymzz/ws_moveit/install/pick_ik/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/ymzz/ws_moveit/install/moveit_ros_control_interface/lib:/home/ymzz/ws_moveit/install/moveit_simple_controller_manager/lib:/home/ymzz/ws_moveit/install/moveit_setup_assistant/lib:/home/ymzz/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/ymzz/ws_moveit/install/moveit_setup_core_plugins/lib:/home/ymzz/ws_moveit/install/moveit_setup_controllers/lib:/home/ymzz/ws_moveit/install/moveit_setup_app_plugins/lib:/home/ymzz/ws_moveit/install/moveit_setup_framework/lib:/home/ymzz/ws_moveit/install/moveit_servo/lib:/home/ymzz/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/ymzz/ws_moveit/install/moveit_ros_visualization/lib:/home/ymzz/ws_moveit/install/moveit_py/lib:/home/ymzz/ws_moveit/install/moveit_hybrid_planning/lib:/home/ymzz/ws_moveit/install/moveit_ros_planning_interface/lib:/home/ymzz/ws_moveit/install/moveit_ros_benchmarks/lib:/home/ymzz/ws_moveit/install/moveit_ros_warehouse/lib:/home/ymzz/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/ymzz/ws_moveit/install/moveit_ros_perception/lib:/home/ymzz/ws_moveit/install/moveit_ros_move_group/lib:/home/ymzz/ws_moveit/install/moveit_planners_ompl/lib:/home/ymzz/ws_moveit/install/moveit_kinematics/lib:/home/ymzz/ws_moveit/install/moveit_ros_planning/lib:/home/ymzz/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/ymzz/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ymzz/ws_moveit/install/moveit_planners_stomp/lib:/home/ymzz/ws_moveit/install/moveit_planners_chomp/lib:/home/ymzz/ws_moveit/install/chomp_motion_planner/lib:/home/ymzz/ws_moveit/install/moveit_core/lib:/home/ymzz/ws_moveit/install/moveit_msgs/lib:/home/ymzz/ws_moveit/install/kortex_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ymzz', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84438e55598d0ac7d158220c6832be3f', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ymzz/ws_ros2/install:/home/ymzz/ws_moveit/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ymzz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ymzz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/ymzz/anaconda3/bin:/home/ymzz/miniconda3/condabin:/home/ymzz/ws_moveit/install/moveit_core/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ymzz-Default-string:@/tmp/.ICE-unix/1822,unix/ymzz-Default-string:/tmp/.ICE-unix/1822', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5587865e_016c_4f7d_aacb_9571f26a38f9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '007', 'AMENT_PREFIX_PATH': '/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller_sharedmemory:/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_control:/home/ymzz/ws_ros2/install/ymbot_hardware_driver:/home/ymzz/ws_ros2/install/ymbot_d_moveit_config:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/realsense2_description:/home/ymzz/ws_ros2/install/realsense2_camera:/home/ymzz/ws_ros2/install/realsense2_camera_msgs:/home/ymzz/ws_ros2/install/orbbec_description:/home/ymzz/ws_ros2/install/orbbec_camera:/home/ymzz/ws_ros2/install/orbbec_camera_msgs:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_ros2/install/easy_handeye2_msgs:/home/ymzz/ws_ros2/install/aruco_ros:/home/ymzz/ws_ros2/install/aruco_msgs:/home/ymzz/ws_ros2/install/aruco:/home/ymzz/ws_moveit/install/trac_ik:/home/ymzz/ws_moveit/install/trac_ik_kinematics:/home/ymzz/ws_moveit/install/trac_ik_lib:/home/ymzz/ws_moveit/install/robotiq_hardware_tests:/home/ymzz/ws_moveit/install/robotiq_driver:/home/ymzz/ws_moveit/install/serial:/home/ymzz/ws_moveit/install/moveit2_tutorials:/home/ymzz/ws_moveit/install/moveit_visual_tools:/home/ymzz/ws_moveit/install/rviz_visual_tools:/home/ymzz/ws_moveit/install/moveit_task_constructor_visualization:/home/ymzz/ws_moveit/install/moveit_task_constructor_demo:/home/ymzz/ws_moveit/install/moveit_task_constructor_capabilities:/home/ymzz/ws_moveit/install/moveit_task_constructor_core:/home/ymzz/ws_moveit/install/rviz_marker_tools:/home/ymzz/ws_moveit/install/kortex_bringup:/home/ymzz/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kortex_description:/home/ymzz/ws_moveit/install/robotiq_description:/home/ymzz/ws_moveit/install/robotiq_controllers:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/ymzz/ws_moveit/install/moveit_runtime:/home/ymzz/ws_moveit/install/moveit:/home/ymzz/ws_moveit/install/moveit_planners:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner:/home/ymzz/ws_moveit/install/pick_ik:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs:/home/ymzz/ws_moveit/install/moveit_ros_control_interface:/home/ymzz/ws_moveit/install/moveit_plugins:/home/ymzz/ws_moveit/install/moveit_simple_controller_manager:/home/ymzz/ws_moveit/install/moveit_setup_assistant:/home/ymzz/ws_moveit/install/moveit_setup_srdf_plugins:/home/ymzz/ws_moveit/install/moveit_setup_core_plugins:/home/ymzz/ws_moveit/install/moveit_setup_controllers:/home/ymzz/ws_moveit/install/moveit_setup_app_plugins:/home/ymzz/ws_moveit/install/moveit_setup_framework:/home/ymzz/ws_moveit/install/moveit_servo:/home/ymzz/ws_moveit/install/moveit_ros_trajectory_cache:/home/ymzz/ws_moveit/install/moveit_ros:/home/ymzz/ws_moveit/install/moveit_ros_visualization:/home/ymzz/ws_moveit/install/moveit_py:/home/ymzz/ws_moveit/install/moveit_hybrid_planning:/home/ymzz/ws_moveit/install/moveit_ros_planning_interface:/home/ymzz/ws_moveit/install/moveit_ros_benchmarks:/home/ymzz/ws_moveit/install/moveit_ros_warehouse:/home/ymzz/ws_moveit/install/moveit_ros_robot_interaction:/home/ymzz/ws_moveit/install/moveit_ros_perception:/home/ymzz/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/ymzz/ws_moveit/install/moveit_ros_move_group:/home/ymzz/ws_moveit/install/moveit_planners_ompl:/home/ymzz/ws_moveit/install/moveit_kinematics:/home/ymzz/ws_moveit/install/moveit_ros_planning:/home/ymzz/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/ymzz/ws_moveit/install/moveit_resources_prbt_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ymzz/ws_moveit/install/moveit_resources:/home/ymzz/ws_moveit/install/moveit_resources_pr2_description:/home/ymzz/ws_moveit/install/moveit_resources_panda_moveit_config:/home/ymzz/ws_moveit/install/dual_arm_panda_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_panda_description:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_description:/home/ymzz/ws_moveit/install/moveit_planners_stomp:/home/ymzz/ws_moveit/install/moveit_planners_chomp:/home/ymzz/ws_moveit/install/chomp_motion_planner:/home/ymzz/ws_moveit/install/moveit_core:/home/ymzz/ws_moveit/install/moveit_msgs:/home/ymzz/ws_moveit/install/moveit_configs_utils:/home/ymzz/ws_moveit/install/moveit_common:/home/ymzz/ws_moveit/install/kortex_driver:/home/ymzz/ws_moveit/install/kortex_api:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/ymzz/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/ymzz/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/ymzz/miniconda3/bin/conda', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84438e55598d0ac7d158220c6832be3f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ymzz/ws_ros2/install/remote_operate_pkg/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/ymbot_d_description/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/vr_receiver/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/realsense2_camera_msgs/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/orbbec_camera_msgs/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/inspire_hand/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/easy_handeye2/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/easy_handeye2_msgs/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/aruco_msgs/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_py/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller_sharedmemory:/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller:/home/ymzz/ws_ros2/install/ymbot_d_control:/home/ymzz/ws_ros2/install/ymbot_hardware_driver:/home/ymzz/ws_ros2/install/ymbot_d_moveit_config:/home/ymzz/ws_ros2/install/realsense2_description:/home/ymzz/ws_ros2/install/realsense2_camera:/home/ymzz/ws_ros2/install/realsense2_camera_msgs:/home/ymzz/ws_ros2/install/orbbec_description:/home/ymzz/ws_ros2/install/orbbec_camera:/home/ymzz/ws_ros2/install/orbbec_camera_msgs:/home/ymzz/ws_ros2/install/easy_handeye2_msgs:/home/ymzz/ws_ros2/install/aruco_ros:/home/ymzz/ws_ros2/install/aruco_msgs:/home/ymzz/ws_ros2/install/aruco:/home/ymzz/ws_moveit/install/trac_ik:/home/ymzz/ws_moveit/install/trac_ik_kinematics:/home/ymzz/ws_moveit/install/trac_ik_lib:/home/ymzz/ws_moveit/install/robotiq_hardware_tests:/home/ymzz/ws_moveit/install/robotiq_driver:/home/ymzz/ws_moveit/install/serial:/home/ymzz/ws_moveit/install/moveit2_tutorials:/home/ymzz/ws_moveit/install/moveit_visual_tools:/home/ymzz/ws_moveit/install/rviz_visual_tools:/home/ymzz/ws_moveit/install/moveit_task_constructor_visualization:/home/ymzz/ws_moveit/install/moveit_task_constructor_demo:/home/ymzz/ws_moveit/install/moveit_task_constructor_capabilities:/home/ymzz/ws_moveit/install/moveit_task_constructor_core:/home/ymzz/ws_moveit/install/rviz_marker_tools:/home/ymzz/ws_moveit/install/kortex_bringup:/home/ymzz/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kortex_description:/home/ymzz/ws_moveit/install/robotiq_description:/home/ymzz/ws_moveit/install/robotiq_controllers:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/ymzz/ws_moveit/install/moveit_runtime:/home/ymzz/ws_moveit/install/moveit:/home/ymzz/ws_moveit/install/moveit_planners:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner:/home/ymzz/ws_moveit/install/pick_ik:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs:/home/ymzz/ws_moveit/install/moveit_ros_control_interface:/home/ymzz/ws_moveit/install/moveit_plugins:/home/ymzz/ws_moveit/install/moveit_simple_controller_manager:/home/ymzz/ws_moveit/install/moveit_setup_assistant:/home/ymzz/ws_moveit/install/moveit_setup_srdf_plugins:/home/ymzz/ws_moveit/install/moveit_setup_core_plugins:/home/ymzz/ws_moveit/install/moveit_setup_controllers:/home/ymzz/ws_moveit/install/moveit_setup_app_plugins:/home/ymzz/ws_moveit/install/moveit_setup_framework:/home/ymzz/ws_moveit/install/moveit_servo:/home/ymzz/ws_moveit/install/moveit_ros_trajectory_cache:/home/ymzz/ws_moveit/install/moveit_ros:/home/ymzz/ws_moveit/install/moveit_ros_visualization:/home/ymzz/ws_moveit/install/moveit_py:/home/ymzz/ws_moveit/install/moveit_hybrid_planning:/home/ymzz/ws_moveit/install/moveit_ros_planning_interface:/home/ymzz/ws_moveit/install/moveit_ros_benchmarks:/home/ymzz/ws_moveit/install/moveit_ros_warehouse:/home/ymzz/ws_moveit/install/moveit_ros_robot_interaction:/home/ymzz/ws_moveit/install/moveit_ros_perception:/home/ymzz/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/ymzz/ws_moveit/install/moveit_ros_move_group:/home/ymzz/ws_moveit/install/moveit_planners_ompl:/home/ymzz/ws_moveit/install/moveit_kinematics:/home/ymzz/ws_moveit/install/moveit_ros_planning:/home/ymzz/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/ymzz/ws_moveit/install/moveit_resources_prbt_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ymzz/ws_moveit/install/moveit_resources:/home/ymzz/ws_moveit/install/moveit_resources_pr2_description:/home/ymzz/ws_moveit/install/moveit_resources_panda_moveit_config:/home/ymzz/ws_moveit/install/dual_arm_panda_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_panda_description:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_description:/home/ymzz/ws_moveit/install/moveit_planners_stomp:/home/ymzz/ws_moveit/install/moveit_planners_chomp:/home/ymzz/ws_moveit/install/chomp_motion_planner:/home/ymzz/ws_moveit/install/moveit_core:/home/ymzz/ws_moveit/install/moveit_msgs:/home/ymzz/ws_moveit/install/moveit_common:/home/ymzz/ws_moveit/install/kortex_driver:/home/ymzz/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy'}), 'shell': False}
+[0.099798] (-) TimerEvent: {}
+[0.121764] (orbbec_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.189425] (orbbec_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.200025] (-) TimerEvent: {}
+[0.206744] (orbbec_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.293256] (orbbec_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.298762] (orbbec_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.299257] (orbbec_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299491] (orbbec_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.300117] (-) TimerEvent: {}
+[0.309904] (orbbec_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400238] (-) TimerEvent: {}
+[0.402051] (orbbec_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.407620] (orbbec_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.407710] (orbbec_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.408067] (orbbec_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.416894] (orbbec_camera) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500370] (-) TimerEvent: {}
+[0.581601] (orbbec_camera) StdoutLine: {'line': b'-- Found Python3: /home/ymzz/anaconda3/bin/python3 (found version "3.12.7") found components: Interpreter \n'}
+[0.600564] (-) TimerEvent: {}
+[0.700945] (-) TimerEvent: {}
+[0.736548] (orbbec_camera) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)\n'}
+[0.752837] (orbbec_camera) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[0.801071] (-) TimerEvent: {}
+[0.816490] (orbbec_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.839341] (orbbec_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.867185] (orbbec_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.894170] (orbbec_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901188] (-) TimerEvent: {}
+[0.920592] (orbbec_camera) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[1.001328] (-) TimerEvent: {}
+[1.077835] (orbbec_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.086093] (orbbec_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101458] (-) TimerEvent: {}
+[1.200638] (orbbec_camera) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.201520] (-) TimerEvent: {}
+[1.222375] (orbbec_camera) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.247457] (orbbec_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.301702] (-) TimerEvent: {}
+[1.324215] (orbbec_camera) StdoutLine: {'line': b'-- Found camera_info_manager: 5.1.6 (/opt/ros/jazzy/share/camera_info_manager/cmake)\n'}
+[1.336840] (orbbec_camera) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[1.380974] (orbbec_camera) StdoutLine: {'line': b'-- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[1.401934] (-) TimerEvent: {}
+[1.423109] (orbbec_camera) StdoutLine: {'line': b'-- Found image_publisher: 5.0.10 (/opt/ros/jazzy/share/image_publisher/cmake)\n'}
+[1.458751] (orbbec_camera) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[1.459602] (orbbec_camera) StdoutLine: {'line': b'-- Found orbbec_camera_msgs: 1.2.2 (/home/ymzz/ws_ros2/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake)\n'}
+[1.483133] (orbbec_camera) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[1.500058] (orbbec_camera) StdoutLine: {'line': b'-- Found tf2: 0.36.10 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.501997] (-) TimerEvent: {}
+[1.508326] (orbbec_camera) StdoutLine: {'line': b'-- Found tf2_eigen: 0.36.10 (/opt/ros/jazzy/share/tf2_eigen/cmake)\n'}
+[1.602031] (orbbec_camera) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.36.10 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)\n'}
+[1.602174] (-) TimerEvent: {}
+[1.605944] (orbbec_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.700941] (orbbec_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.701913] (orbbec_camera) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.702234] (-) TimerEvent: {}
+[1.707857] (orbbec_camera) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.2.3 (/opt/ros/jazzy/share/diagnostic_updater/cmake)\n'}
+[1.750640] (orbbec_camera) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[1.754975] (orbbec_camera) StdoutLine: {'line': b'-- ORRBEC Machine : x86_64\n'}
+[1.755103] (orbbec_camera) StdoutLine: {'line': b'\n'}
+[1.755138] (orbbec_camera) StdoutLine: {'line': b'-- ORRBEC Machine Bits : 64\n'}
+[1.755169] (orbbec_camera) StdoutLine: {'line': b'\n'}
+[1.802377] (-) TimerEvent: {}
+[1.902736] (-) TimerEvent: {}
+[2.002990] (-) TimerEvent: {}
+[2.083914] (orbbec_camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.103075] (-) TimerEvent: {}
+[2.162190] (orbbec_camera) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.203215] (-) TimerEvent: {}
+[2.253733] (orbbec_camera) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.268380] (orbbec_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera\n'}
+[2.280503] (orbbec_camera) CommandEnded: {'returncode': 0}
+[2.281197] (orbbec_camera) JobProgress: {'identifier': 'orbbec_camera', 'progress': 'build'}
+[2.282178] (orbbec_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera', '--', '-j20', '-l20'], 'cwd': '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ymzz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller_sharedmemory/lib:/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller/lib:/home/ymzz/ws_ros2/install/ymbot_hardware_driver/lib:/home/ymzz/ws_ros2/install/realsense2_camera/lib:/home/ymzz/ws_ros2/install/realsense2_camera_msgs/lib:/home/ymzz/ws_ros2/install/orbbec_camera/lib:/home/ymzz/ws_ros2/install/orbbec_camera_msgs/lib:/home/ymzz/ws_ros2/install/easy_handeye2_msgs/lib:/home/ymzz/ws_ros2/install/aruco_ros/lib:/home/ymzz/ws_ros2/install/aruco_msgs/lib:/home/ymzz/ws_ros2/install/aruco/lib:/home/ymzz/ws_moveit/install/trac_ik_kinematics/lib:/home/ymzz/ws_moveit/install/trac_ik_lib/lib:/home/ymzz/ws_moveit/install/robotiq_driver/lib:/home/ymzz/ws_moveit/install/serial/lib:/home/ymzz/ws_moveit/install/moveit_visual_tools/lib:/home/ymzz/ws_moveit/install/rviz_visual_tools/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_demo/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_core/lib:/home/ymzz/ws_moveit/install/rviz_marker_tools/lib:/home/ymzz/ws_moveit/install/robotiq_controllers/lib:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/ymzz/ws_moveit/install/pick_ik/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/ymzz/ws_moveit/install/moveit_ros_control_interface/lib:/home/ymzz/ws_moveit/install/moveit_simple_controller_manager/lib:/home/ymzz/ws_moveit/install/moveit_setup_assistant/lib:/home/ymzz/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/ymzz/ws_moveit/install/moveit_setup_core_plugins/lib:/home/ymzz/ws_moveit/install/moveit_setup_controllers/lib:/home/ymzz/ws_moveit/install/moveit_setup_app_plugins/lib:/home/ymzz/ws_moveit/install/moveit_setup_framework/lib:/home/ymzz/ws_moveit/install/moveit_servo/lib:/home/ymzz/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/ymzz/ws_moveit/install/moveit_ros_visualization/lib:/home/ymzz/ws_moveit/install/moveit_py/lib:/home/ymzz/ws_moveit/install/moveit_hybrid_planning/lib:/home/ymzz/ws_moveit/install/moveit_ros_planning_interface/lib:/home/ymzz/ws_moveit/install/moveit_ros_benchmarks/lib:/home/ymzz/ws_moveit/install/moveit_ros_warehouse/lib:/home/ymzz/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/ymzz/ws_moveit/install/moveit_ros_perception/lib:/home/ymzz/ws_moveit/install/moveit_ros_move_group/lib:/home/ymzz/ws_moveit/install/moveit_planners_ompl/lib:/home/ymzz/ws_moveit/install/moveit_kinematics/lib:/home/ymzz/ws_moveit/install/moveit_ros_planning/lib:/home/ymzz/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/ymzz/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ymzz/ws_moveit/install/moveit_planners_stomp/lib:/home/ymzz/ws_moveit/install/moveit_planners_chomp/lib:/home/ymzz/ws_moveit/install/chomp_motion_planner/lib:/home/ymzz/ws_moveit/install/moveit_core/lib:/home/ymzz/ws_moveit/install/moveit_msgs/lib:/home/ymzz/ws_moveit/install/kortex_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ymzz', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84438e55598d0ac7d158220c6832be3f', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ymzz/ws_ros2/install:/home/ymzz/ws_moveit/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ymzz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ymzz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/ymzz/anaconda3/bin:/home/ymzz/miniconda3/condabin:/home/ymzz/ws_moveit/install/moveit_core/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ymzz-Default-string:@/tmp/.ICE-unix/1822,unix/ymzz-Default-string:/tmp/.ICE-unix/1822', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5587865e_016c_4f7d_aacb_9571f26a38f9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '007', 'AMENT_PREFIX_PATH': '/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller_sharedmemory:/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_control:/home/ymzz/ws_ros2/install/ymbot_hardware_driver:/home/ymzz/ws_ros2/install/ymbot_d_moveit_config:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/realsense2_description:/home/ymzz/ws_ros2/install/realsense2_camera:/home/ymzz/ws_ros2/install/realsense2_camera_msgs:/home/ymzz/ws_ros2/install/orbbec_description:/home/ymzz/ws_ros2/install/orbbec_camera:/home/ymzz/ws_ros2/install/orbbec_camera_msgs:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_ros2/install/easy_handeye2_msgs:/home/ymzz/ws_ros2/install/aruco_ros:/home/ymzz/ws_ros2/install/aruco_msgs:/home/ymzz/ws_ros2/install/aruco:/home/ymzz/ws_moveit/install/trac_ik:/home/ymzz/ws_moveit/install/trac_ik_kinematics:/home/ymzz/ws_moveit/install/trac_ik_lib:/home/ymzz/ws_moveit/install/robotiq_hardware_tests:/home/ymzz/ws_moveit/install/robotiq_driver:/home/ymzz/ws_moveit/install/serial:/home/ymzz/ws_moveit/install/moveit2_tutorials:/home/ymzz/ws_moveit/install/moveit_visual_tools:/home/ymzz/ws_moveit/install/rviz_visual_tools:/home/ymzz/ws_moveit/install/moveit_task_constructor_visualization:/home/ymzz/ws_moveit/install/moveit_task_constructor_demo:/home/ymzz/ws_moveit/install/moveit_task_constructor_capabilities:/home/ymzz/ws_moveit/install/moveit_task_constructor_core:/home/ymzz/ws_moveit/install/rviz_marker_tools:/home/ymzz/ws_moveit/install/kortex_bringup:/home/ymzz/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kortex_description:/home/ymzz/ws_moveit/install/robotiq_description:/home/ymzz/ws_moveit/install/robotiq_controllers:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/ymzz/ws_moveit/install/moveit_runtime:/home/ymzz/ws_moveit/install/moveit:/home/ymzz/ws_moveit/install/moveit_planners:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner:/home/ymzz/ws_moveit/install/pick_ik:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs:/home/ymzz/ws_moveit/install/moveit_ros_control_interface:/home/ymzz/ws_moveit/install/moveit_plugins:/home/ymzz/ws_moveit/install/moveit_simple_controller_manager:/home/ymzz/ws_moveit/install/moveit_setup_assistant:/home/ymzz/ws_moveit/install/moveit_setup_srdf_plugins:/home/ymzz/ws_moveit/install/moveit_setup_core_plugins:/home/ymzz/ws_moveit/install/moveit_setup_controllers:/home/ymzz/ws_moveit/install/moveit_setup_app_plugins:/home/ymzz/ws_moveit/install/moveit_setup_framework:/home/ymzz/ws_moveit/install/moveit_servo:/home/ymzz/ws_moveit/install/moveit_ros_trajectory_cache:/home/ymzz/ws_moveit/install/moveit_ros:/home/ymzz/ws_moveit/install/moveit_ros_visualization:/home/ymzz/ws_moveit/install/moveit_py:/home/ymzz/ws_moveit/install/moveit_hybrid_planning:/home/ymzz/ws_moveit/install/moveit_ros_planning_interface:/home/ymzz/ws_moveit/install/moveit_ros_benchmarks:/home/ymzz/ws_moveit/install/moveit_ros_warehouse:/home/ymzz/ws_moveit/install/moveit_ros_robot_interaction:/home/ymzz/ws_moveit/install/moveit_ros_perception:/home/ymzz/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/ymzz/ws_moveit/install/moveit_ros_move_group:/home/ymzz/ws_moveit/install/moveit_planners_ompl:/home/ymzz/ws_moveit/install/moveit_kinematics:/home/ymzz/ws_moveit/install/moveit_ros_planning:/home/ymzz/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/ymzz/ws_moveit/install/moveit_resources_prbt_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ymzz/ws_moveit/install/moveit_resources:/home/ymzz/ws_moveit/install/moveit_resources_pr2_description:/home/ymzz/ws_moveit/install/moveit_resources_panda_moveit_config:/home/ymzz/ws_moveit/install/dual_arm_panda_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_panda_description:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_description:/home/ymzz/ws_moveit/install/moveit_planners_stomp:/home/ymzz/ws_moveit/install/moveit_planners_chomp:/home/ymzz/ws_moveit/install/chomp_motion_planner:/home/ymzz/ws_moveit/install/moveit_core:/home/ymzz/ws_moveit/install/moveit_msgs:/home/ymzz/ws_moveit/install/moveit_configs_utils:/home/ymzz/ws_moveit/install/moveit_common:/home/ymzz/ws_moveit/install/kortex_driver:/home/ymzz/ws_moveit/install/kortex_api:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/ymzz/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/ymzz/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/ymzz/miniconda3/bin/conda', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84438e55598d0ac7d158220c6832be3f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ymzz/ws_ros2/install/remote_operate_pkg/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/ymbot_d_description/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/vr_receiver/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/realsense2_camera_msgs/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/orbbec_camera_msgs/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/inspire_hand/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/easy_handeye2/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/easy_handeye2_msgs/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/aruco_msgs/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_py/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller_sharedmemory:/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller:/home/ymzz/ws_ros2/install/ymbot_d_control:/home/ymzz/ws_ros2/install/ymbot_hardware_driver:/home/ymzz/ws_ros2/install/ymbot_d_moveit_config:/home/ymzz/ws_ros2/install/realsense2_description:/home/ymzz/ws_ros2/install/realsense2_camera:/home/ymzz/ws_ros2/install/realsense2_camera_msgs:/home/ymzz/ws_ros2/install/orbbec_description:/home/ymzz/ws_ros2/install/orbbec_camera:/home/ymzz/ws_ros2/install/orbbec_camera_msgs:/home/ymzz/ws_ros2/install/easy_handeye2_msgs:/home/ymzz/ws_ros2/install/aruco_ros:/home/ymzz/ws_ros2/install/aruco_msgs:/home/ymzz/ws_ros2/install/aruco:/home/ymzz/ws_moveit/install/trac_ik:/home/ymzz/ws_moveit/install/trac_ik_kinematics:/home/ymzz/ws_moveit/install/trac_ik_lib:/home/ymzz/ws_moveit/install/robotiq_hardware_tests:/home/ymzz/ws_moveit/install/robotiq_driver:/home/ymzz/ws_moveit/install/serial:/home/ymzz/ws_moveit/install/moveit2_tutorials:/home/ymzz/ws_moveit/install/moveit_visual_tools:/home/ymzz/ws_moveit/install/rviz_visual_tools:/home/ymzz/ws_moveit/install/moveit_task_constructor_visualization:/home/ymzz/ws_moveit/install/moveit_task_constructor_demo:/home/ymzz/ws_moveit/install/moveit_task_constructor_capabilities:/home/ymzz/ws_moveit/install/moveit_task_constructor_core:/home/ymzz/ws_moveit/install/rviz_marker_tools:/home/ymzz/ws_moveit/install/kortex_bringup:/home/ymzz/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kortex_description:/home/ymzz/ws_moveit/install/robotiq_description:/home/ymzz/ws_moveit/install/robotiq_controllers:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/ymzz/ws_moveit/install/moveit_runtime:/home/ymzz/ws_moveit/install/moveit:/home/ymzz/ws_moveit/install/moveit_planners:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner:/home/ymzz/ws_moveit/install/pick_ik:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs:/home/ymzz/ws_moveit/install/moveit_ros_control_interface:/home/ymzz/ws_moveit/install/moveit_plugins:/home/ymzz/ws_moveit/install/moveit_simple_controller_manager:/home/ymzz/ws_moveit/install/moveit_setup_assistant:/home/ymzz/ws_moveit/install/moveit_setup_srdf_plugins:/home/ymzz/ws_moveit/install/moveit_setup_core_plugins:/home/ymzz/ws_moveit/install/moveit_setup_controllers:/home/ymzz/ws_moveit/install/moveit_setup_app_plugins:/home/ymzz/ws_moveit/install/moveit_setup_framework:/home/ymzz/ws_moveit/install/moveit_servo:/home/ymzz/ws_moveit/install/moveit_ros_trajectory_cache:/home/ymzz/ws_moveit/install/moveit_ros:/home/ymzz/ws_moveit/install/moveit_ros_visualization:/home/ymzz/ws_moveit/install/moveit_py:/home/ymzz/ws_moveit/install/moveit_hybrid_planning:/home/ymzz/ws_moveit/install/moveit_ros_planning_interface:/home/ymzz/ws_moveit/install/moveit_ros_benchmarks:/home/ymzz/ws_moveit/install/moveit_ros_warehouse:/home/ymzz/ws_moveit/install/moveit_ros_robot_interaction:/home/ymzz/ws_moveit/install/moveit_ros_perception:/home/ymzz/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/ymzz/ws_moveit/install/moveit_ros_move_group:/home/ymzz/ws_moveit/install/moveit_planners_ompl:/home/ymzz/ws_moveit/install/moveit_kinematics:/home/ymzz/ws_moveit/install/moveit_ros_planning:/home/ymzz/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/ymzz/ws_moveit/install/moveit_resources_prbt_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ymzz/ws_moveit/install/moveit_resources:/home/ymzz/ws_moveit/install/moveit_resources_pr2_description:/home/ymzz/ws_moveit/install/moveit_resources_panda_moveit_config:/home/ymzz/ws_moveit/install/dual_arm_panda_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_panda_description:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_description:/home/ymzz/ws_moveit/install/moveit_planners_stomp:/home/ymzz/ws_moveit/install/moveit_planners_chomp:/home/ymzz/ws_moveit/install/chomp_motion_planner:/home/ymzz/ws_moveit/install/moveit_core:/home/ymzz/ws_moveit/install/moveit_msgs:/home/ymzz/ws_moveit/install/moveit_common:/home/ymzz/ws_moveit/install/kortex_driver:/home/ymzz/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy'}), 'shell': False}
+[2.303352] (-) TimerEvent: {}
+[2.347065] (orbbec_camera) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera_node.dir/rclcpp_components/node_main_orbbec_camera_node.cpp.o\x1b[0m\n'}
+[2.347341] (orbbec_camera) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o\x1b[0m\n'}
+[2.347457] (orbbec_camera) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/dynamic_params.cpp.o\x1b[0m\n'}
+[2.347846] (orbbec_camera) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_param_backend.cpp.o\x1b[0m\n'}
+[2.348535] (orbbec_camera) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o\x1b[0m\n'}
+[2.348641] (orbbec_camera) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/utils.cpp.o\x1b[0m\n'}
+[2.349412] (orbbec_camera) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/frame_latency.dir/tools/frame_latency.cpp.o\x1b[0m\n'}
+[2.349701] (orbbec_camera) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/frame_latency_node.dir/rclcpp_components/node_main_frame_latency_node.cpp.o\x1b[0m\n'}
+[2.352024] (orbbec_camera) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/image_publisher.cpp.o\x1b[0m\n'}
+[2.352200] (orbbec_camera) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node_driver.cpp.o\x1b[0m\n'}
+[2.352326] (orbbec_camera) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o\x1b[0m\n'}
+[2.352745] (orbbec_camera) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/synced_imu_publisher.cpp.o\x1b[0m\n'}
+[2.353596] (orbbec_camera) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/jpeg_decoder.cpp.o\x1b[0m\n'}
+[2.403484] (-) TimerEvent: {}
+[2.503846] (-) TimerEvent: {}
+[2.604200] (-) TimerEvent: {}
+[2.704552] (-) TimerEvent: {}
+[2.804963] (-) TimerEvent: {}
+[2.905375] (-) TimerEvent: {}
+[3.005805] (-) TimerEvent: {}
+[3.106228] (-) TimerEvent: {}
+[3.206672] (-) TimerEvent: {}
+[3.307144] (-) TimerEvent: {}
+[3.407618] (-) TimerEvent: {}
+[3.508099] (-) TimerEvent: {}
+[3.608534] (-) TimerEvent: {}
+[3.708982] (-) TimerEvent: {}
+[3.809432] (-) TimerEvent: {}
+[3.909884] (-) TimerEvent: {}
+[4.010343] (-) TimerEvent: {}
+[4.110773] (-) TimerEvent: {}
+[4.211203] (-) TimerEvent: {}
+[4.311622] (-) TimerEvent: {}
+[4.412090] (-) TimerEvent: {}
+[4.512545] (-) TimerEvent: {}
+[4.613045] (-) TimerEvent: {}
+[4.713504] (-) TimerEvent: {}
+[4.813917] (-) TimerEvent: {}
+[4.914350] (-) TimerEvent: {}
+[5.014816] (-) TimerEvent: {}
+[5.115227] (-) TimerEvent: {}
+[5.215677] (-) TimerEvent: {}
+[5.316096] (-) TimerEvent: {}
+[5.416505] (-) TimerEvent: {}
+[5.516951] (-) TimerEvent: {}
+[5.617377] (-) TimerEvent: {}
+[5.717846] (-) TimerEvent: {}
+[5.818248] (-) TimerEvent: {}
+[5.918674] (-) TimerEvent: {}
+[6.019131] (-) TimerEvent: {}
+[6.119561] (-) TimerEvent: {}
+[6.220009] (-) TimerEvent: {}
+[6.320425] (-) TimerEvent: {}
+[6.420870] (-) TimerEvent: {}
+[6.523653] (-) TimerEvent: {}
+[6.606750] (orbbec_camera) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable orbbec_camera_node\x1b[0m\n'}
+[6.623824] (-) TimerEvent: {}
+[6.725858] (-) TimerEvent: {}
+[6.775448] (orbbec_camera) StdoutLine: {'line': b'[ 56%] Built target orbbec_camera_node\n'}
+[6.825999] (-) TimerEvent: {}
+[6.926431] (-) TimerEvent: {}
+[7.026855] (-) TimerEvent: {}
+[7.127265] (-) TimerEvent: {}
+[7.227690] (-) TimerEvent: {}
+[7.328169] (-) TimerEvent: {}
+[7.428549] (-) TimerEvent: {}
+[7.528991] (-) TimerEvent: {}
+[7.629422] (-) TimerEvent: {}
+[7.729931] (-) TimerEvent: {}
+[7.830368] (-) TimerEvent: {}
+[7.930785] (-) TimerEvent: {}
+[8.031196] (-) TimerEvent: {}
+[8.131625] (-) TimerEvent: {}
+[8.232065] (-) TimerEvent: {}
+[8.332507] (-) TimerEvent: {}
+[8.432956] (-) TimerEvent: {}
+[8.533378] (-) TimerEvent: {}
+[8.557218] (orbbec_camera) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable frame_latency_node\x1b[0m\n'}
+[8.633523] (-) TimerEvent: {}
+[8.733963] (-) TimerEvent: {}
+[8.752765] (orbbec_camera) StdoutLine: {'line': b'[ 60%] Built target frame_latency_node\n'}
+[8.834099] (-) TimerEvent: {}
+[8.934522] (-) TimerEvent: {}
+[9.034985] (-) TimerEvent: {}
+[9.135437] (-) TimerEvent: {}
+[9.235821] (-) TimerEvent: {}
+[9.336207] (-) TimerEvent: {}
+[9.436650] (-) TimerEvent: {}
+[9.537060] (-) TimerEvent: {}
+[9.637462] (-) TimerEvent: {}
+[9.737849] (-) TimerEvent: {}
+[9.838232] (-) TimerEvent: {}
+[9.938649] (-) TimerEvent: {}
+[10.039125] (-) TimerEvent: {}
+[10.139531] (-) TimerEvent: {}
+[10.239862] (-) TimerEvent: {}
+[10.340250] (-) TimerEvent: {}
+[10.440605] (-) TimerEvent: {}
+[10.540986] (-) TimerEvent: {}
+[10.641374] (-) TimerEvent: {}
+[10.741721] (-) TimerEvent: {}
+[10.842116] (-) TimerEvent: {}
+[10.942453] (-) TimerEvent: {}
+[11.042830] (-) TimerEvent: {}
+[11.143168] (-) TimerEvent: {}
+[11.243510] (-) TimerEvent: {}
+[11.343843] (-) TimerEvent: {}
+[11.444220] (-) TimerEvent: {}
+[11.544625] (-) TimerEvent: {}
+[11.645007] (-) TimerEvent: {}
+[11.745446] (-) TimerEvent: {}
+[11.845850] (-) TimerEvent: {}
+[11.946238] (-) TimerEvent: {}
+[12.046657] (-) TimerEvent: {}
+[12.147037] (-) TimerEvent: {}
+[12.247398] (-) TimerEvent: {}
+[12.347725] (-) TimerEvent: {}
+[12.448105] (-) TimerEvent: {}
+[12.548463] (-) TimerEvent: {}
+[12.648835] (-) TimerEvent: {}
+[12.749174] (-) TimerEvent: {}
+[12.849529] (-) TimerEvent: {}
+[12.949877] (-) TimerEvent: {}
+[13.050234] (-) TimerEvent: {}
+[13.150627] (-) TimerEvent: {}
+[13.250982] (-) TimerEvent: {}
+[13.351337] (-) TimerEvent: {}
+[13.451763] (-) TimerEvent: {}
+[13.552088] (-) TimerEvent: {}
+[13.652432] (-) TimerEvent: {}
+[13.752717] (-) TimerEvent: {}
+[13.853083] (-) TimerEvent: {}
+[13.953440] (-) TimerEvent: {}
+[14.053832] (-) TimerEvent: {}
+[14.154158] (-) TimerEvent: {}
+[14.254480] (-) TimerEvent: {}
+[14.354828] (-) TimerEvent: {}
+[14.455173] (-) TimerEvent: {}
+[14.555516] (-) TimerEvent: {}
+[14.655967] (-) TimerEvent: {}
+[14.756318] (-) TimerEvent: {}
+[14.856626] (-) TimerEvent: {}
+[14.956960] (-) TimerEvent: {}
+[15.057412] (-) TimerEvent: {}
+[15.157808] (-) TimerEvent: {}
+[15.258147] (-) TimerEvent: {}
+[15.358466] (-) TimerEvent: {}
+[15.458781] (-) TimerEvent: {}
+[15.559072] (-) TimerEvent: {}
+[15.659383] (-) TimerEvent: {}
+[15.759704] (-) TimerEvent: {}
+[15.860062] (-) TimerEvent: {}
+[15.960345] (-) TimerEvent: {}
+[16.060632] (-) TimerEvent: {}
+[16.161067] (-) TimerEvent: {}
+[16.261453] (-) TimerEvent: {}
+[16.361821] (-) TimerEvent: {}
+[16.462099] (-) TimerEvent: {}
+[16.562472] (-) TimerEvent: {}
+[16.662744] (-) TimerEvent: {}
+[16.763053] (-) TimerEvent: {}
+[16.863412] (-) TimerEvent: {}
+[16.963719] (-) TimerEvent: {}
+[17.063982] (-) TimerEvent: {}
+[17.164362] (-) TimerEvent: {}
+[17.264702] (-) TimerEvent: {}
+[17.365018] (-) TimerEvent: {}
+[17.465442] (-) TimerEvent: {}
+[17.565870] (-) TimerEvent: {}
+[17.666304] (-) TimerEvent: {}
+[17.766686] (-) TimerEvent: {}
+[17.866981] (-) TimerEvent: {}
+[17.967392] (-) TimerEvent: {}
+[18.067808] (-) TimerEvent: {}
+[18.168227] (-) TimerEvent: {}
+[18.268666] (-) TimerEvent: {}
+[18.369021] (-) TimerEvent: {}
+[18.469306] (-) TimerEvent: {}
+[18.569644] (-) TimerEvent: {}
+[18.670084] (-) TimerEvent: {}
+[18.770360] (-) TimerEvent: {}
+[18.870795] (-) TimerEvent: {}
+[18.971221] (-) TimerEvent: {}
+[19.071638] (-) TimerEvent: {}
+[19.171982] (-) TimerEvent: {}
+[19.272300] (-) TimerEvent: {}
+[19.372704] (-) TimerEvent: {}
+[19.473006] (-) TimerEvent: {}
+[19.573390] (-) TimerEvent: {}
+[19.673812] (-) TimerEvent: {}
+[19.774093] (-) TimerEvent: {}
+[19.874384] (-) TimerEvent: {}
+[19.974815] (-) TimerEvent: {}
+[20.075193] (-) TimerEvent: {}
+[20.175476] (-) TimerEvent: {}
+[20.275810] (-) TimerEvent: {}
+[20.376134] (-) TimerEvent: {}
+[20.476425] (-) TimerEvent: {}
+[20.576741] (-) TimerEvent: {}
+[20.677148] (-) TimerEvent: {}
+[20.777500] (-) TimerEvent: {}
+[20.877799] (-) TimerEvent: {}
+[20.978130] (-) TimerEvent: {}
+[21.078542] (-) TimerEvent: {}
+[21.178871] (-) TimerEvent: {}
+[21.279193] (-) TimerEvent: {}
+[21.379488] (-) TimerEvent: {}
+[21.479808] (-) TimerEvent: {}
+[21.580083] (-) TimerEvent: {}
+[21.680361] (-) TimerEvent: {}
+[21.780661] (-) TimerEvent: {}
+[21.880947] (-) TimerEvent: {}
+[21.981211] (-) TimerEvent: {}
+[22.081608] (-) TimerEvent: {}
+[22.181886] (-) TimerEvent: {}
+[22.282155] (-) TimerEvent: {}
+[22.382426] (-) TimerEvent: {}
+[22.482733] (-) TimerEvent: {}
+[22.583035] (-) TimerEvent: {}
+[22.683341] (-) TimerEvent: {}
+[22.783739] (-) TimerEvent: {}
+[22.884093] (-) TimerEvent: {}
+[22.984397] (-) TimerEvent: {}
+[23.084665] (-) TimerEvent: {}
+[23.184933] (-) TimerEvent: {}
+[23.285189] (-) TimerEvent: {}
+[23.385588] (-) TimerEvent: {}
+[23.485893] (-) TimerEvent: {}
+[23.586268] (-) TimerEvent: {}
+[23.686533] (-) TimerEvent: {}
+[23.786829] (-) TimerEvent: {}
+[23.887139] (-) TimerEvent: {}
+[23.987431] (-) TimerEvent: {}
+[24.087795] (-) TimerEvent: {}
+[24.188049] (-) TimerEvent: {}
+[24.288345] (-) TimerEvent: {}
+[24.388728] (-) TimerEvent: {}
+[24.489048] (-) TimerEvent: {}
+[24.589342] (-) TimerEvent: {}
+[24.689635] (-) TimerEvent: {}
+[24.789895] (-) TimerEvent: {}
+[24.890149] (-) TimerEvent: {}
+[24.990455] (-) TimerEvent: {}
+[25.090750] (-) TimerEvent: {}
+[25.191037] (-) TimerEvent: {}
+[25.291295] (-) TimerEvent: {}
+[25.391663] (-) TimerEvent: {}
+[25.491963] (-) TimerEvent: {}
+[25.592261] (-) TimerEvent: {}
+[25.692552] (-) TimerEvent: {}
+[25.792920] (-) TimerEvent: {}
+[25.893188] (-) TimerEvent: {}
+[25.993532] (-) TimerEvent: {}
+[26.093891] (-) TimerEvent: {}
+[26.194166] (-) TimerEvent: {}
+[26.294504] (-) TimerEvent: {}
+[26.394858] (-) TimerEvent: {}
+[26.495200] (-) TimerEvent: {}
+[26.595457] (-) TimerEvent: {}
+[26.695810] (-) TimerEvent: {}
+[26.796156] (-) TimerEvent: {}
+[26.896502] (-) TimerEvent: {}
+[26.996842] (-) TimerEvent: {}
+[27.097082] (-) TimerEvent: {}
+[27.197391] (-) TimerEvent: {}
+[27.297653] (-) TimerEvent: {}
+[27.397925] (-) TimerEvent: {}
+[27.498188] (-) TimerEvent: {}
+[27.598551] (-) TimerEvent: {}
+[27.698816] (-) TimerEvent: {}
+[27.799081] (-) TimerEvent: {}
+[27.899471] (-) TimerEvent: {}
+[27.999769] (-) TimerEvent: {}
+[28.100157] (-) TimerEvent: {}
+[28.200525] (-) TimerEvent: {}
+[28.300921] (-) TimerEvent: {}
+[28.401284] (-) TimerEvent: {}
+[28.501684] (-) TimerEvent: {}
+[28.602001] (-) TimerEvent: {}
+[28.702367] (-) TimerEvent: {}
+[28.802595] (-) TimerEvent: {}
+[28.902932] (-) TimerEvent: {}
+[29.003295] (-) TimerEvent: {}
+[29.103576] (-) TimerEvent: {}
+[29.203819] (-) TimerEvent: {}
+[29.304077] (-) TimerEvent: {}
+[29.404370] (-) TimerEvent: {}
+[29.504693] (-) TimerEvent: {}
+[29.604960] (-) TimerEvent: {}
+[29.705219] (-) TimerEvent: {}
+[29.805485] (-) TimerEvent: {}
+[29.905841] (-) TimerEvent: {}
+[30.006099] (-) TimerEvent: {}
+[30.106386] (-) TimerEvent: {}
+[30.206638] (-) TimerEvent: {}
+[30.306857] (-) TimerEvent: {}
+[30.407114] (-) TimerEvent: {}
+[30.507403] (-) TimerEvent: {}
+[30.607684] (-) TimerEvent: {}
+[30.708019] (-) TimerEvent: {}
+[30.808277] (-) TimerEvent: {}
+[30.908682] (-) TimerEvent: {}
+[31.008976] (-) TimerEvent: {}
+[31.109234] (-) TimerEvent: {}
+[31.209541] (-) TimerEvent: {}
+[31.309840] (-) TimerEvent: {}
+[31.410174] (-) TimerEvent: {}
+[31.510472] (-) TimerEvent: {}
+[31.610797] (-) TimerEvent: {}
+[31.711120] (-) TimerEvent: {}
+[31.811376] (-) TimerEvent: {}
+[31.911730] (-) TimerEvent: {}
+[32.012260] (-) TimerEvent: {}
+[32.112531] (-) TimerEvent: {}
+[32.212798] (-) TimerEvent: {}
+[32.313145] (-) TimerEvent: {}
+[32.413494] (-) TimerEvent: {}
+[32.513861] (-) TimerEvent: {}
+[32.614100] (-) TimerEvent: {}
+[32.714452] (-) TimerEvent: {}
+[32.814817] (-) TimerEvent: {}
+[32.915169] (-) TimerEvent: {}
+[33.015445] (-) TimerEvent: {}
+[33.115704] (-) TimerEvent: {}
+[33.215970] (-) TimerEvent: {}
+[33.316259] (-) TimerEvent: {}
+[33.416648] (-) TimerEvent: {}
+[33.516920] (-) TimerEvent: {}
+[33.617182] (-) TimerEvent: {}
+[33.623637] (orbbec_camera) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library liborbbec_camera.so\x1b[0m\n'}
+[33.717314] (-) TimerEvent: {}
+[33.817666] (-) TimerEvent: {}
+[33.918024] (-) TimerEvent: {}
+[33.983709] (orbbec_camera) StdoutLine: {'line': b'[ 64%] Built target orbbec_camera\n'}
+[34.007261] (orbbec_camera) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/list_devices_node.dir/tools/list_devices_node.cpp.o\x1b[0m\n'}
+[34.008384] (orbbec_camera) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/list_depth_work_mode_node.dir/tools/list_depth_work_mode.cpp.o\x1b[0m\n'}
+[34.009146] (orbbec_camera) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/list_camera_profile_mode_node.dir/tools/list_camera_profile.cpp.o\x1b[0m\n'}
+[34.010190] (orbbec_camera) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/topic_statistics_node.dir/tools/topic_statistics.cpp.o\x1b[0m\n'}
+[34.018129] (-) TimerEvent: {}
+[34.118397] (-) TimerEvent: {}
+[34.218727] (-) TimerEvent: {}
+[34.319056] (-) TimerEvent: {}
+[34.419399] (-) TimerEvent: {}
+[34.519734] (-) TimerEvent: {}
+[34.620146] (-) TimerEvent: {}
+[34.720436] (-) TimerEvent: {}
+[34.820707] (-) TimerEvent: {}
+[34.921032] (-) TimerEvent: {}
+[35.021342] (-) TimerEvent: {}
+[35.121683] (-) TimerEvent: {}
+[35.222025] (-) TimerEvent: {}
+[35.322438] (-) TimerEvent: {}
+[35.422784] (-) TimerEvent: {}
+[35.523128] (-) TimerEvent: {}
+[35.623468] (-) TimerEvent: {}
+[35.723815] (-) TimerEvent: {}
+[35.824166] (-) TimerEvent: {}
+[35.924502] (-) TimerEvent: {}
+[36.024840] (-) TimerEvent: {}
+[36.125162] (-) TimerEvent: {}
+[36.225504] (-) TimerEvent: {}
+[36.325891] (-) TimerEvent: {}
+[36.426317] (-) TimerEvent: {}
+[36.493283] (orbbec_camera) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libframe_latency.so\x1b[0m\n'}
+[36.526429] (-) TimerEvent: {}
+[36.626868] (-) TimerEvent: {}
+[36.727194] (-) TimerEvent: {}
+[36.827608] (-) TimerEvent: {}
+[36.831251] (orbbec_camera) StdoutLine: {'line': b'[ 84%] Built target frame_latency\n'}
+[36.927761] (-) TimerEvent: {}
+[37.028046] (-) TimerEvent: {}
+[37.128377] (-) TimerEvent: {}
+[37.228670] (-) TimerEvent: {}
+[37.328970] (-) TimerEvent: {}
+[37.429417] (-) TimerEvent: {}
+[37.529850] (-) TimerEvent: {}
+[37.630151] (-) TimerEvent: {}
+[37.730565] (-) TimerEvent: {}
+[37.830881] (-) TimerEvent: {}
+[37.931286] (-) TimerEvent: {}
+[38.031614] (-) TimerEvent: {}
+[38.132058] (-) TimerEvent: {}
+[38.232488] (-) TimerEvent: {}
+[38.332827] (-) TimerEvent: {}
+[38.433126] (-) TimerEvent: {}
+[38.533424] (-) TimerEvent: {}
+[38.633871] (-) TimerEvent: {}
+[38.734198] (-) TimerEvent: {}
+[38.834558] (-) TimerEvent: {}
+[38.934991] (-) TimerEvent: {}
+[39.035330] (-) TimerEvent: {}
+[39.135668] (-) TimerEvent: {}
+[39.235975] (-) TimerEvent: {}
+[39.336269] (-) TimerEvent: {}
+[39.436583] (-) TimerEvent: {}
+[39.536934] (-) TimerEvent: {}
+[39.637379] (-) TimerEvent: {}
+[39.737801] (-) TimerEvent: {}
+[39.838101] (-) TimerEvent: {}
+[39.938405] (-) TimerEvent: {}
+[40.038712] (-) TimerEvent: {}
+[40.139040] (-) TimerEvent: {}
+[40.239465] (-) TimerEvent: {}
+[40.339891] (-) TimerEvent: {}
+[40.440191] (-) TimerEvent: {}
+[40.540641] (-) TimerEvent: {}
+[40.640972] (-) TimerEvent: {}
+[40.741261] (-) TimerEvent: {}
+[40.841595] (-) TimerEvent: {}
+[40.941956] (-) TimerEvent: {}
+[41.042330] (-) TimerEvent: {}
+[41.142681] (-) TimerEvent: {}
+[41.242994] (-) TimerEvent: {}
+[41.343289] (-) TimerEvent: {}
+[41.443592] (-) TimerEvent: {}
+[41.543891] (-) TimerEvent: {}
+[41.644238] (-) TimerEvent: {}
+[41.744537] (-) TimerEvent: {}
+[41.844824] (-) TimerEvent: {}
+[41.945170] (-) TimerEvent: {}
+[42.045484] (-) TimerEvent: {}
+[42.145835] (-) TimerEvent: {}
+[42.246156] (-) TimerEvent: {}
+[42.346496] (-) TimerEvent: {}
+[42.446892] (-) TimerEvent: {}
+[42.507661] (orbbec_camera) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable list_depth_work_mode_node\x1b[0m\n'}
+[42.547033] (-) TimerEvent: {}
+[42.647524] (-) TimerEvent: {}
+[42.691018] (orbbec_camera) StdoutLine: {'line': b'[ 88%] Built target list_depth_work_mode_node\n'}
+[42.747671] (-) TimerEvent: {}
+[42.793182] (orbbec_camera) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable list_devices_node\x1b[0m\n'}
+[42.847912] (-) TimerEvent: {}
+[42.943134] (orbbec_camera) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable list_camera_profile_mode_node\x1b[0m\n'}
+[42.948098] (-) TimerEvent: {}
+[43.048432] (-) TimerEvent: {}
+[43.148838] (-) TimerEvent: {}
+[43.249117] (-) TimerEvent: {}
+[43.315486] (orbbec_camera) StdoutLine: {'line': b'[ 96%] Built target list_devices_node\n'}
+[43.349262] (-) TimerEvent: {}
+[43.413983] (orbbec_camera) StdoutLine: {'line': b'[ 96%] Built target list_camera_profile_mode_node\n'}
+[43.449363] (-) TimerEvent: {}
+[43.549720] (-) TimerEvent: {}
+[43.649971] (-) TimerEvent: {}
+[43.750222] (-) TimerEvent: {}
+[43.850513] (-) TimerEvent: {}
+[43.950807] (-) TimerEvent: {}
+[44.038583] (orbbec_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topic_statistics_node\x1b[0m\n'}
+[44.050883] (-) TimerEvent: {}
+[44.151194] (-) TimerEvent: {}
+[44.207600] (orbbec_camera) StdoutLine: {'line': b'[100%] Built target topic_statistics_node\n'}
+[44.219566] (orbbec_camera) CommandEnded: {'returncode': 0}
+[44.220192] (orbbec_camera) JobProgress: {'identifier': 'orbbec_camera', 'progress': 'install'}
+[44.229282] (orbbec_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera'], 'cwd': '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ymzz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller_sharedmemory/lib:/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller/lib:/home/ymzz/ws_ros2/install/ymbot_hardware_driver/lib:/home/ymzz/ws_ros2/install/realsense2_camera/lib:/home/ymzz/ws_ros2/install/realsense2_camera_msgs/lib:/home/ymzz/ws_ros2/install/orbbec_camera/lib:/home/ymzz/ws_ros2/install/orbbec_camera_msgs/lib:/home/ymzz/ws_ros2/install/easy_handeye2_msgs/lib:/home/ymzz/ws_ros2/install/aruco_ros/lib:/home/ymzz/ws_ros2/install/aruco_msgs/lib:/home/ymzz/ws_ros2/install/aruco/lib:/home/ymzz/ws_moveit/install/trac_ik_kinematics/lib:/home/ymzz/ws_moveit/install/trac_ik_lib/lib:/home/ymzz/ws_moveit/install/robotiq_driver/lib:/home/ymzz/ws_moveit/install/serial/lib:/home/ymzz/ws_moveit/install/moveit_visual_tools/lib:/home/ymzz/ws_moveit/install/rviz_visual_tools/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_demo/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_core/lib:/home/ymzz/ws_moveit/install/rviz_marker_tools/lib:/home/ymzz/ws_moveit/install/robotiq_controllers/lib:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/ymzz/ws_moveit/install/pick_ik/lib:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/ymzz/ws_moveit/install/moveit_ros_control_interface/lib:/home/ymzz/ws_moveit/install/moveit_simple_controller_manager/lib:/home/ymzz/ws_moveit/install/moveit_setup_assistant/lib:/home/ymzz/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/ymzz/ws_moveit/install/moveit_setup_core_plugins/lib:/home/ymzz/ws_moveit/install/moveit_setup_controllers/lib:/home/ymzz/ws_moveit/install/moveit_setup_app_plugins/lib:/home/ymzz/ws_moveit/install/moveit_setup_framework/lib:/home/ymzz/ws_moveit/install/moveit_servo/lib:/home/ymzz/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/ymzz/ws_moveit/install/moveit_ros_visualization/lib:/home/ymzz/ws_moveit/install/moveit_py/lib:/home/ymzz/ws_moveit/install/moveit_hybrid_planning/lib:/home/ymzz/ws_moveit/install/moveit_ros_planning_interface/lib:/home/ymzz/ws_moveit/install/moveit_ros_benchmarks/lib:/home/ymzz/ws_moveit/install/moveit_ros_warehouse/lib:/home/ymzz/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/ymzz/ws_moveit/install/moveit_ros_perception/lib:/home/ymzz/ws_moveit/install/moveit_ros_move_group/lib:/home/ymzz/ws_moveit/install/moveit_planners_ompl/lib:/home/ymzz/ws_moveit/install/moveit_kinematics/lib:/home/ymzz/ws_moveit/install/moveit_ros_planning/lib:/home/ymzz/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/ymzz/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ymzz/ws_moveit/install/moveit_planners_stomp/lib:/home/ymzz/ws_moveit/install/moveit_planners_chomp/lib:/home/ymzz/ws_moveit/install/chomp_motion_planner/lib:/home/ymzz/ws_moveit/install/moveit_core/lib:/home/ymzz/ws_moveit/install/moveit_msgs/lib:/home/ymzz/ws_moveit/install/kortex_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ymzz', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84438e55598d0ac7d158220c6832be3f', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ymzz/ws_ros2/install:/home/ymzz/ws_moveit/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ymzz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ymzz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/ymzz/anaconda3/bin:/home/ymzz/miniconda3/condabin:/home/ymzz/ws_moveit/install/moveit_core/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ymzz-Default-string:@/tmp/.ICE-unix/1822,unix/ymzz-Default-string:/tmp/.ICE-unix/1822', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5587865e_016c_4f7d_aacb_9571f26a38f9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '007', 'AMENT_PREFIX_PATH': '/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller_sharedmemory:/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_control:/home/ymzz/ws_ros2/install/ymbot_hardware_driver:/home/ymzz/ws_ros2/install/ymbot_d_moveit_config:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/realsense2_description:/home/ymzz/ws_ros2/install/realsense2_camera:/home/ymzz/ws_ros2/install/realsense2_camera_msgs:/home/ymzz/ws_ros2/install/orbbec_description:/home/ymzz/ws_ros2/install/orbbec_camera:/home/ymzz/ws_ros2/install/orbbec_camera_msgs:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_ros2/install/easy_handeye2_msgs:/home/ymzz/ws_ros2/install/aruco_ros:/home/ymzz/ws_ros2/install/aruco_msgs:/home/ymzz/ws_ros2/install/aruco:/home/ymzz/ws_moveit/install/trac_ik:/home/ymzz/ws_moveit/install/trac_ik_kinematics:/home/ymzz/ws_moveit/install/trac_ik_lib:/home/ymzz/ws_moveit/install/robotiq_hardware_tests:/home/ymzz/ws_moveit/install/robotiq_driver:/home/ymzz/ws_moveit/install/serial:/home/ymzz/ws_moveit/install/moveit2_tutorials:/home/ymzz/ws_moveit/install/moveit_visual_tools:/home/ymzz/ws_moveit/install/rviz_visual_tools:/home/ymzz/ws_moveit/install/moveit_task_constructor_visualization:/home/ymzz/ws_moveit/install/moveit_task_constructor_demo:/home/ymzz/ws_moveit/install/moveit_task_constructor_capabilities:/home/ymzz/ws_moveit/install/moveit_task_constructor_core:/home/ymzz/ws_moveit/install/rviz_marker_tools:/home/ymzz/ws_moveit/install/kortex_bringup:/home/ymzz/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kortex_description:/home/ymzz/ws_moveit/install/robotiq_description:/home/ymzz/ws_moveit/install/robotiq_controllers:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/ymzz/ws_moveit/install/moveit_runtime:/home/ymzz/ws_moveit/install/moveit:/home/ymzz/ws_moveit/install/moveit_planners:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner:/home/ymzz/ws_moveit/install/pick_ik:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs:/home/ymzz/ws_moveit/install/moveit_ros_control_interface:/home/ymzz/ws_moveit/install/moveit_plugins:/home/ymzz/ws_moveit/install/moveit_simple_controller_manager:/home/ymzz/ws_moveit/install/moveit_setup_assistant:/home/ymzz/ws_moveit/install/moveit_setup_srdf_plugins:/home/ymzz/ws_moveit/install/moveit_setup_core_plugins:/home/ymzz/ws_moveit/install/moveit_setup_controllers:/home/ymzz/ws_moveit/install/moveit_setup_app_plugins:/home/ymzz/ws_moveit/install/moveit_setup_framework:/home/ymzz/ws_moveit/install/moveit_servo:/home/ymzz/ws_moveit/install/moveit_ros_trajectory_cache:/home/ymzz/ws_moveit/install/moveit_ros:/home/ymzz/ws_moveit/install/moveit_ros_visualization:/home/ymzz/ws_moveit/install/moveit_py:/home/ymzz/ws_moveit/install/moveit_hybrid_planning:/home/ymzz/ws_moveit/install/moveit_ros_planning_interface:/home/ymzz/ws_moveit/install/moveit_ros_benchmarks:/home/ymzz/ws_moveit/install/moveit_ros_warehouse:/home/ymzz/ws_moveit/install/moveit_ros_robot_interaction:/home/ymzz/ws_moveit/install/moveit_ros_perception:/home/ymzz/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/ymzz/ws_moveit/install/moveit_ros_move_group:/home/ymzz/ws_moveit/install/moveit_planners_ompl:/home/ymzz/ws_moveit/install/moveit_kinematics:/home/ymzz/ws_moveit/install/moveit_ros_planning:/home/ymzz/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/ymzz/ws_moveit/install/moveit_resources_prbt_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ymzz/ws_moveit/install/moveit_resources:/home/ymzz/ws_moveit/install/moveit_resources_pr2_description:/home/ymzz/ws_moveit/install/moveit_resources_panda_moveit_config:/home/ymzz/ws_moveit/install/dual_arm_panda_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_panda_description:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_description:/home/ymzz/ws_moveit/install/moveit_planners_stomp:/home/ymzz/ws_moveit/install/moveit_planners_chomp:/home/ymzz/ws_moveit/install/chomp_motion_planner:/home/ymzz/ws_moveit/install/moveit_core:/home/ymzz/ws_moveit/install/moveit_msgs:/home/ymzz/ws_moveit/install/moveit_configs_utils:/home/ymzz/ws_moveit/install/moveit_common:/home/ymzz/ws_moveit/install/kortex_driver:/home/ymzz/ws_moveit/install/kortex_api:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/ymzz/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/ymzz/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/build/orbbec_camera', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/ymzz/miniconda3/bin/conda', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84438e55598d0ac7d158220c6832be3f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ymzz/ws_ros2/install/remote_operate_pkg/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/ymbot_d_description/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/vr_receiver/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/realsense2_camera_msgs/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/orbbec_camera_msgs/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/inspire_hand/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/easy_handeye2/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/easy_handeye2_msgs/lib/python3.12/site-packages:/home/ymzz/ws_ros2/install/aruco_msgs/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_py/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/ymzz/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller_sharedmemory:/home/ymzz/ws_ros2/install/ymbot_d_ros2_controller:/home/ymzz/ws_ros2/install/ymbot_d_control:/home/ymzz/ws_ros2/install/ymbot_hardware_driver:/home/ymzz/ws_ros2/install/ymbot_d_moveit_config:/home/ymzz/ws_ros2/install/realsense2_description:/home/ymzz/ws_ros2/install/realsense2_camera:/home/ymzz/ws_ros2/install/realsense2_camera_msgs:/home/ymzz/ws_ros2/install/orbbec_description:/home/ymzz/ws_ros2/install/orbbec_camera:/home/ymzz/ws_ros2/install/orbbec_camera_msgs:/home/ymzz/ws_ros2/install/easy_handeye2_msgs:/home/ymzz/ws_ros2/install/aruco_ros:/home/ymzz/ws_ros2/install/aruco_msgs:/home/ymzz/ws_ros2/install/aruco:/home/ymzz/ws_moveit/install/trac_ik:/home/ymzz/ws_moveit/install/trac_ik_kinematics:/home/ymzz/ws_moveit/install/trac_ik_lib:/home/ymzz/ws_moveit/install/robotiq_hardware_tests:/home/ymzz/ws_moveit/install/robotiq_driver:/home/ymzz/ws_moveit/install/serial:/home/ymzz/ws_moveit/install/moveit2_tutorials:/home/ymzz/ws_moveit/install/moveit_visual_tools:/home/ymzz/ws_moveit/install/rviz_visual_tools:/home/ymzz/ws_moveit/install/moveit_task_constructor_visualization:/home/ymzz/ws_moveit/install/moveit_task_constructor_demo:/home/ymzz/ws_moveit/install/moveit_task_constructor_capabilities:/home/ymzz/ws_moveit/install/moveit_task_constructor_core:/home/ymzz/ws_moveit/install/rviz_marker_tools:/home/ymzz/ws_moveit/install/kortex_bringup:/home/ymzz/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ymzz/ws_moveit/install/kortex_description:/home/ymzz/ws_moveit/install/robotiq_description:/home/ymzz/ws_moveit/install/robotiq_controllers:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/ymzz/ws_moveit/install/moveit_runtime:/home/ymzz/ws_moveit/install/moveit:/home/ymzz/ws_moveit/install/moveit_planners:/home/ymzz/ws_moveit/install/pilz_industrial_motion_planner:/home/ymzz/ws_moveit/install/pick_ik:/home/ymzz/ws_moveit/install/moveit_task_constructor_msgs:/home/ymzz/ws_moveit/install/moveit_ros_control_interface:/home/ymzz/ws_moveit/install/moveit_plugins:/home/ymzz/ws_moveit/install/moveit_simple_controller_manager:/home/ymzz/ws_moveit/install/moveit_setup_assistant:/home/ymzz/ws_moveit/install/moveit_setup_srdf_plugins:/home/ymzz/ws_moveit/install/moveit_setup_core_plugins:/home/ymzz/ws_moveit/install/moveit_setup_controllers:/home/ymzz/ws_moveit/install/moveit_setup_app_plugins:/home/ymzz/ws_moveit/install/moveit_setup_framework:/home/ymzz/ws_moveit/install/moveit_servo:/home/ymzz/ws_moveit/install/moveit_ros_trajectory_cache:/home/ymzz/ws_moveit/install/moveit_ros:/home/ymzz/ws_moveit/install/moveit_ros_visualization:/home/ymzz/ws_moveit/install/moveit_py:/home/ymzz/ws_moveit/install/moveit_hybrid_planning:/home/ymzz/ws_moveit/install/moveit_ros_planning_interface:/home/ymzz/ws_moveit/install/moveit_ros_benchmarks:/home/ymzz/ws_moveit/install/moveit_ros_warehouse:/home/ymzz/ws_moveit/install/moveit_ros_robot_interaction:/home/ymzz/ws_moveit/install/moveit_ros_perception:/home/ymzz/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/ymzz/ws_moveit/install/moveit_ros_move_group:/home/ymzz/ws_moveit/install/moveit_planners_ompl:/home/ymzz/ws_moveit/install/moveit_kinematics:/home/ymzz/ws_moveit/install/moveit_ros_planning:/home/ymzz/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/ymzz/ws_moveit/install/moveit_resources_prbt_support:/home/ymzz/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ymzz/ws_moveit/install/moveit_resources:/home/ymzz/ws_moveit/install/moveit_resources_pr2_description:/home/ymzz/ws_moveit/install/moveit_resources_panda_moveit_config:/home/ymzz/ws_moveit/install/dual_arm_panda_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_panda_description:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/ymzz/ws_moveit/install/moveit_resources_fanuc_description:/home/ymzz/ws_moveit/install/moveit_planners_stomp:/home/ymzz/ws_moveit/install/moveit_planners_chomp:/home/ymzz/ws_moveit/install/chomp_motion_planner:/home/ymzz/ws_moveit/install/moveit_core:/home/ymzz/ws_moveit/install/moveit_msgs:/home/ymzz/ws_moveit/install/moveit_common:/home/ymzz/ws_moveit/install/kortex_driver:/home/ymzz/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ymzz/ws_ros2/install/remote_operate_pkg:/home/ymzz/ws_ros2/install/ymbot_d_description:/home/ymzz/ws_ros2/install/vr_receiver:/home/ymzz/ws_ros2/install/inspire_hand:/home/ymzz/ws_ros2/install/easy_handeye2:/home/ymzz/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy'}), 'shell': False}
+[44.237915] (orbbec_camera) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[44.247026] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node\n'}
+[44.247073] (orbbec_camera) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node" to ":/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[44.247113] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/frame_latency_node\n'}
+[44.247148] (orbbec_camera) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/frame_latency_node" to ":/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[44.247182] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/liborbbec_camera.so\n'}
+[44.247216] (orbbec_camera) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/liborbbec_camera.so" to ":/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[44.247251] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/libframe_latency.so\n'}
+[44.247283] (orbbec_camera) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/libframe_latency.so" to ":/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[44.247317] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include\n'}
+[44.247348] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/magic_enum\n'}
+[44.247380] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/magic_enum/magic_enum.hpp\n'}
+[44.247413] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera\n'}
+[44.247445] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h\n'}
+[44.247477] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/constants.h\n'}
+[44.247511] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/ob_camera_node.h\n'}
+[44.247543] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/dynamic_params.h\n'}
+[44.247809] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/utils.h\n'}
+[44.247868] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/rk_mpp_decoder.h\n'}
+[44.247906] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/jpeg_decoder.h\n'}
+[44.247937] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/synced_imu_publisher.h\n'}
+[44.247970] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/d2c_viewer.h\n'}
+[44.248001] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/image_publisher.h\n'}
+[44.248033] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/ros_param_backend.h\n'}
+[44.248065] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/orbbec_camera/jetson_nv_decoder.h\n'}
+[44.248096] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch\n'}
+[44.248129] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/multi_net_camera.launch.py\n'}
+[44.248162] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/dabai_max.launch.py\n'}
+[44.248193] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew.launch.py\n'}
+[44.248225] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/astra_pro2.launch.py\n'}
+[44.248258] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/astra2.launch.py\n'}
+[44.248291] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/ob_camera.launch.py\n'}
+[44.248321] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcl.py\n'}
+[44.248352] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/astra.launch.py\n'}
+[44.248384] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini_uw.launch.py\n'}
+[44.248413] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/astra_stereo_u3.launch.py\n'}
+[44.248444] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/femto.launch.py\n'}
+[44.248473] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/multi_camera_synced.launch.py\n'}
+[44.248533] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini_e.launch.py\n'}
+[44.248563] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/deeya.launch.py\n'}
+[44.248595] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/femto_mega.launch.py\n'}
+[44.248625] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/dabai_d1.launch.py\n'}
+[44.248656] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini2.launch.py\n'}
+[44.248687] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/astra_embedded_s.launch.py\n'}
+[44.248733] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw.launch.py\n'}
+[44.248797] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini2L.launch.py\n'}
+[44.248831] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw2.launch.py\n'}
+[44.248863] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini2VL.launch.py\n'}
+[44.248894] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/dabai.launch.py\n'}
+[44.248925] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/femto_net_camera.launch.py\n'}
+[44.248957] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/dabai_pro.launch.py\n'}
+[44.248986] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini_e_lite.launch.py\n'}
+[44.249015] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini_330_series.launch.py\n'}
+[44.249045] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini2XL.launch.py\n'}
+[44.249075] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/dabai_max_pro.launch.py\n'}
+[44.249102] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini_intra_process_demo_launch.py\n'}
+[44.249129] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew_lite.launch.py\n'}
+[44.249156] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/astra_adv.launch.py\n'}
+[44.249184] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/femto_bolt.launch.py\n'}
+[44.249210] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/multi_camera.launch.py\n'}
+[44.249237] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw2.launch.py\n'}
+[44.249264] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw.launch.py\n'}
+[44.249291] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//config\n'}
+[44.249319] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//config/OrbbecSDKConfig_v1.0.xml\n'}
+[44.249346] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//config/.gitkeep\n'}
+[44.249373] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//config/depthfilter\n'}
+[44.249399] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Gemini2_v1.8.json\n'}
+[44.249426] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Openni_device.json\n'}
+[44.249453] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera//config/camera_params.yaml\n'}
+[44.249481] (orbbec_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include\n'}
+[44.249509] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor\n'}
+[44.249537] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/ObSensor.hpp\n'}
+[44.249564] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp\n'}
+[44.249593] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/Pipeline.hpp\n'}
+[44.249620] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/StreamProfile.hpp\n'}
+[44.249647] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/Sensor.hpp\n'}
+[44.249676] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/Device.hpp\n'}
+[44.249704] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/Version.hpp\n'}
+[44.249732] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/Filter.hpp\n'}
+[44.249767] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/Context.hpp\n'}
+[44.249798] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/Error.hpp\n'}
+[44.249826] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/RecordPlayback.hpp\n'}
+[44.249856] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/Frame.hpp\n'}
+[44.249890] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/Types.hpp\n'}
+[44.249921] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/hpp/Utils.hpp\n'}
+[44.249952] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h\n'}
+[44.249983] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/Context.h\n'}
+[44.250013] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/Frame.h\n'}
+[44.250044] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/Version.h\n'}
+[44.250075] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/Device.h\n'}
+[44.250105] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/Filter.h\n'}
+[44.250135] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/StreamProfile.h\n'}
+[44.250164] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/Property.h\n'}
+[44.250192] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/RecordPlayback.h\n'}
+[44.250221] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/MultipleDevices.h\n'}
+[44.250250] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/Sensor.h\n'}
+[44.250280] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/Utils.h\n'}
+[44.250320] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/Error.h\n'}
+[44.250348] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/Pipeline.h\n'}
+[44.250377] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/h/ObTypes.h\n'}
+[44.250404] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/include/libobsensor/ObSensor.h\n'}
+[44.250433] (orbbec_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/\n'}
+[44.250459] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib//libOrbbecSDK.so\n'}
+[44.250487] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib//liblive555.so\n'}
+[44.250517] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib//libdepthengine.so\n'}
+[44.250544] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib//libob_usb.so\n'}
+[44.250571] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib//libdepthengine.so.2.0\n'}
+[44.250836] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib//libOrbbecSDK.so.1.10\n'}
+[44.250884] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib//libOrbbecSDK.so.1.10.18\n'}
+[44.251279] (-) TimerEvent: {}
+[44.261597] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/list_devices_node\n'}
+[44.261884] (orbbec_camera) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/list_devices_node" to ":/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[44.261974] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node\n'}
+[44.262120] (orbbec_camera) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node" to ":/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[44.262166] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node\n'}
+[44.262376] (orbbec_camera) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node" to ":/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[44.262422] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node\n'}
+[44.263144] (orbbec_camera) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node" to ":/home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[44.263446] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/environment/library_path.sh\n'}
+[44.263563] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/environment/library_path.dsv\n'}
+[44.263623] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/ament_index/resource_index/package_run_dependencies/orbbec_camera\n'}
+[44.263665] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/ament_index/resource_index/parent_prefix_path/orbbec_camera\n'}
+[44.263705] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.sh\n'}
+[44.263765] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.dsv\n'}
+[44.263811] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/environment/path.sh\n'}
+[44.263849] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/environment/path.dsv\n'}
+[44.263888] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/local_setup.bash\n'}
+[44.263929] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/local_setup.sh\n'}
+[44.264094] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/local_setup.zsh\n'}
+[44.264423] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/local_setup.dsv\n'}
+[44.264560] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.dsv\n'}
+[44.264642] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/ament_index/resource_index/packages/orbbec_camera\n'}
+[44.264719] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/ament_index/resource_index/rclcpp_components/orbbec_camera\n'}
+[44.264797] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[44.264881] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[44.264957] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[44.265026] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig.cmake\n'}
+[44.265092] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig-version.cmake\n'}
+[44.265161] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /home/ymzz/ws_ros2/src/Sensors_Ros2/OrbbecSDK_ROS2/orbbec_camera/install/orbbec_camera/share/orbbec_camera/package.xml\n'}
+[44.266624] (orbbec_camera) CommandEnded: {'returncode': 0}
+[44.280100] (orbbec_camera) JobEnded: {'identifier': 'orbbec_camera', 'rc': 0}
+[44.281085] (-) EventReactorShutdown: {}

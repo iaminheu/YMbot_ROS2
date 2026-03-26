@@ -1,0 +1,10 @@
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/CMakeFiles/uninstall.dir
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/CMakeFiles/rviz2_rotatable_image_plugin_uninstall.dir
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/CMakeFiles/rviz2_rotatable_image_plugin.dir
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/CMakeFiles/test.dir
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/CMakeFiles/edit_cache.dir
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/CMakeFiles/rebuild_cache.dir
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/CMakeFiles/list_install_components.dir
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/CMakeFiles/install.dir
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/CMakeFiles/install/local.dir
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/CMakeFiles/install/strip.dir

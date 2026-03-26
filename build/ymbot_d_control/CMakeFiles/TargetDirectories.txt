@@ -1,0 +1,15 @@
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/uninstall.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/ymbot_d_control_uninstall.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/keyboard_control_by_multiple_canables.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/modify_motors_pid.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/pose_tracking_left_arm.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/pose_tracking_right_arm.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/position_tracking_neck.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/body_joint_tracking.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/test.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/edit_cache.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/rebuild_cache.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/list_install_components.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/install.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/install/local.dir
+/home/ymzz/YMbot_ROS2/build/ymbot_d_control/CMakeFiles/install/strip.dir

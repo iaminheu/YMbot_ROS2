@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ymzz/YMbot_ROS2/utils/ymbot_d_sharedmemory_driver/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

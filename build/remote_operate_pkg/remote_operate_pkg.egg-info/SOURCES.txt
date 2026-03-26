@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+launch/remote_operate.launch.py
+remote_operate_pkg/__init__.py
+remote_operate_pkg/body_control.py
+remote_operate_pkg/hand_control.py
+remote_operate_pkg/joint_control.py
+remote_operate_pkg/neck_control.py
+remote_operate_pkg.egg-info/PKG-INFO
+remote_operate_pkg.egg-info/SOURCES.txt
+remote_operate_pkg.egg-info/dependency_links.txt
+remote_operate_pkg.egg-info/entry_points.txt
+remote_operate_pkg.egg-info/requires.txt
+remote_operate_pkg.egg-info/top_level.txt
+remote_operate_pkg.egg-info/zip-safe
+resource/remote_operate_pkg

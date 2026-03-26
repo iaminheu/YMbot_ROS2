@@ -1,0 +1,9 @@
+source;share/vr_receiver_tcp/hook/pythonpath.ps1
+source;share/vr_receiver_tcp/hook/pythonpath.dsv
+source;share/vr_receiver_tcp/hook/pythonpath.sh
+source;share/vr_receiver_tcp/hook/ament_prefix_path.ps1
+source;share/vr_receiver_tcp/hook/ament_prefix_path.dsv
+source;share/vr_receiver_tcp/hook/ament_prefix_path.sh
+source;../../build/vr_receiver_tcp/share/vr_receiver_tcp/hook/pythonpath_develop.ps1
+source;../../build/vr_receiver_tcp/share/vr_receiver_tcp/hook/pythonpath_develop.dsv
+source;../../build/vr_receiver_tcp/share/vr_receiver_tcp/hook/pythonpath_develop.sh

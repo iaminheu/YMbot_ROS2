@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+launch/gemini2L_recorder_launch.py
+launch/rs_launch.py
+launch/rs_multi_camera_launch.py
+launch/rs_single_camera_launch.py
+launch/run.launch.py
+resource/start_robot
+start_robot.egg-info/PKG-INFO
+start_robot.egg-info/SOURCES.txt
+start_robot.egg-info/dependency_links.txt
+start_robot.egg-info/requires.txt
+start_robot.egg-info/top_level.txt
+start_robot.egg-info/zip-safe

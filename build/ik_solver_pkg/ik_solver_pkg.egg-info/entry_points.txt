@@ -1,0 +1,2 @@
+[console_scripts]
+ik_servo_node_coll = ik_solver_pkg.ik_servo_node_collision:main

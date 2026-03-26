@@ -1,0 +1,8 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ymbot_d_ros2_controller_sharedmemory_uninstall"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/ymbot_d_ros2_controller_sharedmemory_uninstall.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

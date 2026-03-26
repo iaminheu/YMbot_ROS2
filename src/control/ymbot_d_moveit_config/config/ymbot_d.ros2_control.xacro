@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="ymbot_d_ros2_control" params="name initial_positions_file">
+        <xacro:property name="initial_positions" value="${xacro.load_yaml(initial_positions_file)['initial_positions']}"/>
+
+        <ros2_control name="${name}" type="system">
+            <hardware>
+                <!-- By default, set up controllers for simulation. This won't work on real hardware -->
+                <!-- <plugin>mock_components/GenericSystem</plugin> -->
+                <plugin>ymbot_d_ros2_controller_sharedmemory/ymbot_d_hardware_interface</plugin>
+
+                <!-- <plugin>ymbot_d_ros2_controller/ymbot_d_hardware_interface</plugin>  -->
+                <!-- 已经废弃 旧版本与新版本冲突 -->
+            </hardware>
+            <joint name="Body_Joint1">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Body_Joint1']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Body_Joint2">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Body_Joint2']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Body_Joint3">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Body_Joint3']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Body_Joint4">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Body_Joint4']}</param>
+                </state_interface>  
+            </joint>
+            <joint name="Neck_Joint1">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Neck_Joint1']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Neck_Joint2">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Neck_Joint2']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Left_Arm_Joint1">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Left_Arm_Joint1']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Left_Arm_Joint2">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Left_Arm_Joint2']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Left_Arm_Joint3">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Left_Arm_Joint3']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Left_Arm_Joint4">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Left_Arm_Joint4']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Left_Arm_Joint5">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Left_Arm_Joint5']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Left_Arm_Joint6">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Left_Arm_Joint6']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Left_Arm_Joint7">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Left_Arm_Joint7']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Right_Arm_Joint1">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Right_Arm_Joint1']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Right_Arm_Joint2">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Right_Arm_Joint2']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Right_Arm_Joint3">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Right_Arm_Joint3']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Right_Arm_Joint4">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Right_Arm_Joint4']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Right_Arm_Joint5">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Right_Arm_Joint5']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Right_Arm_Joint6">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Right_Arm_Joint6']}</param>
+                </state_interface>
+            </joint>
+            <joint name="Right_Arm_Joint7">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Right_Arm_Joint7']}</param>
+                </state_interface>
+            </joint>
+
+        </ros2_control>
+    </xacro:macro>
+</robot>

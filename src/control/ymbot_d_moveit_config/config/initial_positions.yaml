@@ -1,0 +1,54 @@
+# Default initial positions for ymbot_d's ros2_control fake system
+
+# initial_positions:
+#   Body_Joint1: 0
+#   Body_Joint2: 0
+#   Body_Joint3: 0
+#   Body_Joint4: 0
+#   Left_Arm_Joint1: 0
+#   Left_Arm_Joint2: 0
+#   Left_Arm_Joint3: 0
+#   Left_Arm_Joint4: 0
+#   Left_Arm_Joint5: 0
+#   Left_Arm_Joint6: 0
+#   Left_Arm_Joint7: 0
+#   Neck_Joint1: 0
+#   Neck_Joint2: 0
+#   Right_Arm_Joint1: 0
+#   Right_Arm_Joint2: 0
+#   Right_Arm_Joint3: 0
+#   Right_Arm_Joint4: 0
+#   Right_Arm_Joint5: 0
+#   Right_Arm_Joint6: 0
+#   Right_Arm_Joint7: 0
+
+initial_positions:
+  Body_Joint1: 0.436111111111
+  Body_Joint2: 1.3083333
+  Body_Joint3: -0.97222222
+  Body_Joint4: 0
+  Left_Arm_Joint1: -0.521111111
+  Left_Arm_Joint2: 0.22333
+  Left_Arm_Joint3: 0
+  Left_Arm_Joint4: 0
+  Left_Arm_Joint5: 0
+  Left_Arm_Joint6: -0.32333
+  Left_Arm_Joint7: 0
+  Neck_Joint1: 0
+  Neck_Joint2: -0.436111111111
+  Right_Arm_Joint1: 0.521111111
+  Right_Arm_Joint2: -0.22333
+  Right_Arm_Joint3: 0
+  Right_Arm_Joint4: 0
+  Right_Arm_Joint5: 0
+  Right_Arm_Joint6: 0.32333
+  Right_Arm_Joint7: 0
+
+
+  
+    
+      
+  
+    
+  
+    

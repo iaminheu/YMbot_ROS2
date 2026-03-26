@@ -1,0 +1,5 @@
+-D_BUILD_DIR_PATH="/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin"
+-D_SRC_DIR_PATH="/home/ymzz/YMbot_ROS2/src/realsense-ros/rviz2_rotatable_image_plugin"
+-o
+/home/ymzz/YMbot_ROS2/build/rviz2_rotatable_image_plugin/include/rviz2_rotatable_image_plugin/moc_rotatable_image_display.cpp
+/home/ymzz/YMbot_ROS2/src/realsense-ros/rviz2_rotatable_image_plugin/include/rviz2_rotatable_image_plugin/rotatable_image_display.hpp

@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6a83b82146a030e88b29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ymbot_d_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "body_joint_tracking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-body_joint_tracking-804f34f99f2b9d6e6a1c.json",
+					"name" : "body_joint_tracking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_control_by_multiple_canables::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_control_by_multiple_canables-ba2b33ddf26cbbecf745.json",
+					"name" : "keyboard_control_by_multiple_canables",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "modify_motors_pid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-modify_motors_pid-86d4c39f8c69860008c1.json",
+					"name" : "modify_motors_pid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_tracking_left_arm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_tracking_left_arm-230cb91006b8bfc579f8.json",
+					"name" : "pose_tracking_left_arm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_tracking_right_arm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_tracking_right_arm-8caa734f246178c14a39.json",
+					"name" : "pose_tracking_right_arm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "position_tracking_neck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-position_tracking_neck-418bb950a9f3693453c0.json",
+					"name" : "position_tracking_neck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-84113b91225f658c33c2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ymbot_d_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ymbot_d_control_uninstall-d215676b2b42e8d0223d.json",
+					"name" : "ymbot_d_control_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ymzz/YMbot_ROS2/build/ymbot_d_control",
+		"source" : "/home/ymzz/YMbot_ROS2/src/control/ymbot_d_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
