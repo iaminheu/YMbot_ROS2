@@ -22,6 +22,9 @@ JOINT_NAMES_LIST = [ "Left_Arm_Joint1", "Left_Arm_Joint2", "Left_Arm_Joint3", "L
 
 NUM_JOINTS = 20
 
+# 机器人双臂实时 IK 逆解求解器
+# 作用：把 VR 手柄的 3D 位姿（位置 + 姿态），自动计算机器人左右臂 14 个关节角度。
+
 from ik_solver_pkg.utils.weighted_moving_filter import WeightedMovingFilter
 
 class Ymbot_ArmIK:

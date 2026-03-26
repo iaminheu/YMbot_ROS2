@@ -4,6 +4,7 @@ import os
 from glob import glob
 package_name = 'ik_solver_pkg'
 
+# 告诉系统如何安装 IK 节点
 setup(
     name=package_name,
     version='0.0.0',

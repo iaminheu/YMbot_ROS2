@@ -19,6 +19,7 @@ JOINT_NAMES_LIST = [ "Left_Arm_Joint1", "Left_Arm_Joint2", "Left_Arm_Joint3", "L
 
 NUM_JOINTS = 20
 
+# 机器人实时自碰撞检测模块
 class CollisionChecker:
     def __init__(self, node,  urdf_path, srdf_path, init_positions, check_freq=10, collision_recovery_steps=5):
 
